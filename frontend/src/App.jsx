@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import MapView from './page/MapView'
 import './App.css'
 
 function App() {
@@ -7,6 +7,12 @@ function App() {
 
   return (
     <>
+    <Header/>
+     <div>
+      <h2>Smart Parking Map</h2>
+      <MapView />
+    </div>
+    <Footer/>
     </>
   )
 }
